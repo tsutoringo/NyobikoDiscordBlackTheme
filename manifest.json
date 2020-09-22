@@ -3,14 +3,14 @@
   "name": "Discord Black Theme for Nyobiko",
   "description": "N予備校のテーマ拡張機能です",
   "permissions": [
-    "activeTab",
     "https://www.nnn.ed.nico/*"
   ],
   "content_scripts": [
     {
       "run_at": "document_start",
       "matches": [
-        "https://www.nnn.ed.nico/*"
+        "https://www.nnn.ed.nico/courses/*/chapters/*",
+        "https://www.nnn.ed.nico/contents/courses/*/chapters/*/*/*"
       ],
       "js": [
         "js/content-script.js"
