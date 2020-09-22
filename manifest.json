@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Discord Black Theme for Nyobiko",
+  "description": "N予備校のテーマ拡張機能です",
+  "permissions": [
+    "activeTab",
+    "https://www.nnn.ed.nico/*"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "https://www.nnn.ed.nico/*"
+      ],
+      "js": [
+        "js/content-script.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "version": "0.1.2",
+  "content_security_policy": "script-src 'self' ; object-src 'self'"
+}
