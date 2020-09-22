@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	@import url(https://tsutoringo.github.io/Nyobiko-themeCSS/smart.css);
 	:root {
 		--background-tertiary: #202225;
-U@		--background-secondary-alt: #292b2f;
+		--background-secondary-alt: #292b2f;
 		--background-secondary: #2f3136;
 		--background-primary: #36393f;
 		--normal-text: #dcddde;
