@@ -12,8 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		--normal-text: #dcddde;
 		--darken-text: #3a3a3a;
 		--divider-color: #525252;
-		--list-hover-bg-color: #2b2d2f
-	
+		--list-hover-bg-color: #2b2d2f;
 		--gate-colosed-color-1: #36393f80;
 		--gate-colosed-color-2: #20222560;
 	}
